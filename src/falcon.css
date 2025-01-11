@@ -66,7 +66,7 @@ html, body {
     transition: var(--transition);
 }
 
-/* Switcher Button */
+/* Theme Switcher Button */
 #theme-toggle {
     background-color: var(--color-accent);
     color: var(--color-text);
