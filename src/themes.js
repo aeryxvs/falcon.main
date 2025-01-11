@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem('theme', newTheme);
     });
 
-    const savedTheme = localStorage.getItem('theme') || 'light'; // default to 'light' if none is saved
+    const savedTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
 });
