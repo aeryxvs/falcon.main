@@ -34,6 +34,122 @@
   <meta property="og:url" content="https://falcon-biuro.pl/en/">
   <meta property="og:site_name" content="FALCON">
   <meta property="og:image" content="https://i.strl.uk/falcon/logo-white-V1">
+<!--  temporary solution   -->
+  <style>
+    .service-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color: var(--color-bg);
+      padding: 5vh 10vw;
+      margin-bottom: 20%;
+    }
+
+    .service-hero {
+      max-width: 800px;
+      margin-bottom: 4vh;
+    }
+
+    .service-hero h1 {
+      font-size: 3rem;
+      color: var(--color-text);
+    }
+
+    .service-hero p {
+      font-size: 1.3rem;
+      color: var(--color-muted);
+    }
+
+    .service-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1000px;
+      gap: 5vh;
+    }
+
+    .service-info {
+      flex: 1;
+      text-align: left;
+      max-width: 450px;
+    }
+
+    .service-info h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .service-info p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .service-info ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .service-info ul li {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      color: var(--color-muted);
+    }
+
+    .service-button {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      font-size: 1.2rem;
+      background-color: var(--color-alt-accent);
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .service-button:hover {
+      background-color: var(--color-alt-hover);
+      transform: scale(1.05);
+    }
+
+    .service-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .service-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px var(--color-shadow);
+    }
+
+    @media (max-width: 800px) {
+      .service-section {
+        padding: 5vh 5vw;
+      }
+
+      .service-section h1 {
+        font-size: 1.8rem;
+      }
+
+      .service-section p {
+        font-size: 1rem;
+        padding: 0 5vw;
+      }
+
+      .service-section .cta-button {
+        font-size: 0.9rem;
+        padding: 1.2vh 4vw;
+      }
+
+      .service-content {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 <body>
 <div class="header">
@@ -58,7 +174,7 @@
     </div>
     <a href="#" class="header-entry">Blog</a>
     <a href="/en/contact" class="header-entry">Contact</a>
-    <a href="/" class="header-entry">Polski</a>
+    <a href="/oferty/spawanie" class="header-entry">Polski</a>
     <a href="#" id="theme-toggle" class="header-entry">Toggle Theme</a>
   </nav>
 </div>
