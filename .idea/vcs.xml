@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../astranova.cdn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../falcon-mainpage" vcs="Git" />
   </component>
 </project>
