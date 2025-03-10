@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../astranova.cdn/.idea/astranova.cdn.iml" filepath="$PROJECT_DIR$/../astranova.cdn/.idea/astranova.cdn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../falcon-mailapi/.idea/falcon-mailapi.iml" filepath="$PROJECT_DIR$/../falcon-mailapi/.idea/falcon-mailapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/falcon-redesign.iml" filepath="$PROJECT_DIR$/.idea/falcon-redesign.iml" />
     </modules>
   </component>

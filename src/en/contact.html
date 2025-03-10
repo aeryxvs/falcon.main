@@ -1,3 +1,20 @@
+<!--
+                                                    .....         .:  .  .....          .77?JJY5P?
+                                          Y&&&&&&&@@@@@@@@&&B55B&&@@? 7&@@@@@@G.       ~@@@@@@@@5.
+             .!~          .GB#####BBGP5Y?!#@@@@@@@@@G&@@@&@@@@@@@@@@&  .5@@@@@@@Y     G@@@@@@@P.
+         .~5#@@@~        ^&@@@@@@@@@@@@@@BB@@@@@@@@@#&@&  P@@@@@@@@@5    .P@@@@@@&~ !@@@@@@@G.
+     7~Y#@@@@@@@@.     .B@@@@@#  ..:^~7JJ G@@&@@@@@@@@@&~Y&@@@@@@@#7       .G@@@@@@@@@@@@@G:
+    #@@@@@@P@@@@@B    .@@@@@@@&^^^^^~~~.  ..  @@@@@@@@@@@@@@@@@&GJ:          :B@@@@@@@@@5.
+   B@@@@@#^ !@@@@@7    &@@@@@@@@@@@@@B~       &@@@@@@@@B^7@@@@@@@@@&:          :&@@@@#7
+  B@@@@@@P555@@@@@@.   !@@@@@@&J??J7.          Y@@@@@@@P  #@@@@@@@@@#         ^P@@5~.
+ P@@@@@@@@@@@@@@@@@#    &@@@@@# ..........      7@@@@@@P  #@@@@@@@@@B      :5&@@@&
+ ^&@@@&:.::^^7@@@@@@&.  ?@@@@@@&@@@@@@@@@&       #@@@@@P  &@@@@@@@@@?      .::~!J?
+   ?&@.       !@@@@@@@.  @@@@@@@@@&GGBBB#P      .@@@@@@P  #@@@@@&5~
+               .^~~~!7.  ~YYY5P5~.              G@@@@@@@#?^&BJ^.
+                                                .......:^.
+                     (c) 2025 aeryxvs
+                     (c) 2025 Falcon Metalworking
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,9 +45,8 @@
         <div class="dropdown">
             <a href="#" class="header-entry dropdown">Services</a>
             <div class="dropdown-content">
-                <a href="#">Powder Coating</a>
-                <a href="#">Cutting and Bending</a>
-                <a href="#">Welding</a>
+                <a href="/en/services/cutting_bending">Cutting and Bending</a>
+                <a href="/en/services/welding">Welding</a>
             </div>
         </div>
         <div class="dropdown">
@@ -46,12 +62,6 @@
         <a href="#" id="theme-toggle" class="header-entry">Toggle Theme</a>
     </nav>
 </div>
-<div class="image-card-wrapper styled">
-    <div class="image-card">
-        <h1>Contact</h1>
-        <hr>
-    </div>
-</div>
 
 <section class="contact-section">
     <div class="hero styled">
@@ -64,18 +74,19 @@
 
     <div class="contact-container">
         <div class="contact-form">
-            <form action="#" method="POST">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="First Last" required>
+            <label>Work In Progress</label>
+<!--            <form id="contactForm">-->
+<!--                <label for="name">Name</label>-->
+<!--                <input type="text" id="name" name="name" placeholder="First Last" required>-->
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@falcon-biuro.pl" required>
+<!--                <label for="email">Email</label>-->
+<!--                <input type="email" id="email" name="email" placeholder="example@falcon-biuro.pl" required>-->
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="20" placeholder="Type your message here." required></textarea>
+<!--                <label for="message">Message</label>-->
+<!--                <textarea id="message" name="message" rows="20" placeholder="Type your message here." required></textarea>-->
 
-                <button type="submit" class="card-button">Send Message</button>
-            </form>
+<!--                <button type="submit" class="card-button">Send Message</button>-->
+<!--            </form>-->
         </div>
 
         <div class="contact-info">
@@ -107,8 +118,21 @@
 <footer class="footer">
     <img class="footer-logo" src="https://i.strl.uk/falcon/wordmark-black-V1" alt="Logo">
     <p>&copy; 2025 Falcon Metalworking Sp. z o.o.</p>
-    <p><a href="#">Privacy Policy</a></p>
+<!--    <p><a href="#">Privacy Policy</a></p>-->
 </footer>
 <script src="https://s1.strl.uk/projects/falcon/themes.js"></script>
+<!--<script>-->
+<!--    document.getElementById("contactForm").addEventListener("submit", async (e) => {-->
+<!--        e.preventDefault();-->
+<!--        const formData = new FormData(e.target);-->
+<!--        const response = await fetch("https://your-worker-url.workers.dev", {-->
+<!--            method: "POST",-->
+<!--            body: JSON.stringify(Object.fromEntries(formData)),-->
+<!--            headers: { "Content-Type": "application/json" }-->
+<!--        });-->
+<!--        const result = await response.json();-->
+<!--        alert(result.message);-->
+<!--    });-->
+<!--</script>-->
 </body>
 </html>

@@ -12,5 +12,6 @@
     <orderEntry type="library" name="gallery" level="application" />
     <orderEntry type="library" name="themes" level="application" />
     <orderEntry type="module" module-name="astranova.cdn" />
+    <orderEntry type="module" module-name="falcon-mailapi" />
   </component>
 </module>
